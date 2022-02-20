@@ -27,7 +27,7 @@ node.js, inquirer package
 
 ## LinkToSite
 Video Link: https://drive.google.com/file/d/1uu7jl9qENUEswfhvBjiYylkBWzj-Fz8N/view
-Github Repo Link:
+Github Repo Link: https://jennyrae818.github.io/README-generator/
 
 Below is an example of what the README print out will look like based on your inputs - here, EXAMPLE was used.
 <br>
