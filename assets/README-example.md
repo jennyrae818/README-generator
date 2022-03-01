@@ -33,8 +33,8 @@ EXAMPLE TITLE is available under the MIT-License
 ![EXAMPLE.PNG](EXAMPLE.PNG)
 
 ## Links
-Link to site: <EXAMPLE.COM>
-Github link: <EXAMPLE.COM>
+Link to site: <WWW.EXAMPLE.COM>
+Github link: <WWW.EXAMPLE.COM>
 
 ## Questions
 If you have any questions please email MRS. EXAMPLE directly at MRSEXAMPLE@EXAMPLE.COM.

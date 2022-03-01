@@ -1,6 +1,6 @@
 
 # Project Title
-## Project testing 
+## Project EXAMPLE TITLE PROJECT
 
 ## Table of Contents 
 
@@ -13,30 +13,30 @@
 * [Questions](#questions)
 
 ## Description
-this 
+This is just a test run through of the README file. 
 
 ## Installation
-again to
+Installation instructions would go here.
 
 ## Usage
-see if it works
+Useage information would go here.
 
 ## Contribution Guidelines
-with a few 
+Contribution instructions would go here. 
 
 ## Tests
-changes to 
+Testing instructions would go here. 
 
 ## License
-testing  is available under the MIT-License
+EXAMPLE TITLE PROJECT is available under the MIT-License
     
 ## Screenshots
-![the.png](the.png)
+![screenshot.png](screenshot.png)
 
 ## Links
-Link to site: <README file >
-Github link: <format>
+Link to site: <https://www.google.com/>
+Github link: <https://github.com/jennyrae818/README-generator>
 
 ## Questions
-If you have any questions please email jenny sacco directly at email@example.com.
+If you have any questions please email Jenny Sacco directly at jennyrae818@gmail.com.
     
