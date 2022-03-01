@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+// prompts to take the user through 
 
 const promptUser = () => {
   return inquirer.prompt([
@@ -69,50 +70,55 @@ const promptUser = () => {
   ]);
 };
 
+// README file to be generated 
+
 const generateREADME = ({ title, description, installation, usage, contribution, tests, url, github, license, screenshots, name, email }) =>
-  `#Project Title
-    ##Project ${title}
+  
+`
+# Project Title
+## Project ${title}
 
-    ##Table of Contents 
+## Table of Contents 
 
-    * [Description](#description)
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [How to Contribute](#how-to-contribute)
-    * [Tests](#tests)
-    * [LinkToSite](#LinkToSite)
-    * [Questions](#questions)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [How to Contribute](#how-to-contribute)
+* [Tests](#tests)
+* [LinkToSite](#LinkToSite)
+* [Questions](#questions)
 
-    ##Description
-    ${description}
+## Description
+${description}
 
-    ##Installation
-    ${installation}
+## Installation
+${installation}
 
-    ##Usage
-    ${usage}
+## Usage
+${usage}
 
-    ##Contribution Guidelines
-    ${contribution}
+## Contribution Guidelines
+${contribution}
 
-    ##Tests
-    ${tests}
+## Tests
+${tests}
 
-    ##License
-    ${title} is available under the ${license}
+## License
+${title} is available under the ${license}
     
-    ##Screenshots
-    ![${screenshots}](${screenshots})
+## Screenshots
+![${screenshots}](${screenshots})
 
-    ##Links
-    Link to site: <${url}>
-    Github link: <${github}>
+## Links
+Link to site: <${url}>
+Github link: <${github}>
 
-    ##Questions
-    If you have any questions please email ${name} directly at ${email}.
+## Questions
+If you have any questions please email ${name} directly at ${email}.
     `;
 
-
+// function to establish what to do with the entry information - answers are to be made into a "Readme.md" file in the distribution folder
+// THEN when entrys are complete, log the message "successfully..." or log an error if there is one
 const init = () => {
   promptUser()
   
@@ -120,6 +126,8 @@ const init = () => {
     .then(() => console.log('Successfully wrote to README.md!'))
     .catch((err) => console.error(err));
 };
+
+//function call to initialize the app
 
 init();
 
