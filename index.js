@@ -116,9 +116,10 @@ const generateREADME = ({ title, description, installation, usage, contribution,
 const init = () => {
   promptUser()
   
-    .then((answers) => fs.writeFileSync('README.md', generateREADME(answers)))
+    .then((answers) => fs.writeFileSync('./dist/README.md', generateREADME(answers)))
     .then(() => console.log('Successfully wrote to README.md!'))
     .catch((err) => console.error(err));
 };
 
 init();
+
